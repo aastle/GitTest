@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(),"Pull or Pull?  Make your choice.",Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(),"Pull it don't push it?  Make your choice.",Toast.LENGTH_LONG).show();
             }
         });
     }
